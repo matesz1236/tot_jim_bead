@@ -1,4 +1,7 @@
-## A csomag klónozása
+## Leírás
+Ez a ROS 2 csomag két node-ból áll: az egyik véletlenszámokat generál és publikál egy random_number topicra, a másik node valós idejű statisztikákat számol ezekből a számokból (átlag, minimum, maximum, szórás), és a konzolon jeleníti meg az eredményeket.
+
+## Csomag klónozása
 
 ```bash
 cd ~/ros2_ws/src
