@@ -16,13 +16,13 @@ source ~/ros2_ws/install/setup.bash
 ```
 
 ## Csomag futtatása
-# 1. lehetőség — launch fájllal (ajánlott)
+### 1. lehetőség — launch fájllal (ajánlott)
 
 Ez a parancs egyszerre elindítja mindkét node-ot:
 ```bash
 ros2 launch random_stats_pkg random_stats_launch.py
 ```
-# 2. lehetőség — külön terminálokban
+### 2. lehetőség — külön terminálokban
 
 Terminál 1:
 ```bash
